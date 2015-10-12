@@ -1,0 +1,130 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@mipmap/bg">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp">
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/back"
+            android:layout_centerVertical="true"
+            android:background="@drawable/press"/>
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/title"
+            android:textColor="@color/color_99b4a1"
+            android:textSize="@dimen/big_font"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"/>
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/content_img"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:scaleType="fitXY"
+        android:maxHeight="130dp"
+        android:src="@mipmap/chun1"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/content_01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lichun"
+            android:layout_marginLeft="20dp"
+            android:textSize="@dimen/big_font"
+            android:textColor="@color/color_234605"
+            android:background="@drawable/press"/>
+
+        <TextView
+            android:id="@+id/content_02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/yushui"
+            android:textSize="@dimen/big_font"
+            android:textColor="@color/color_234605"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/press"/>
+
+        <TextView
+            android:id="@+id/content_03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/jingzhe"
+            android:textSize="@dimen/big_font"
+            android:textColor="@color/color_234605"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/press"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/content_04"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/chunfen"
+            android:layout_marginLeft="20dp"
+            android:textSize="@dimen/big_font"
+            android:textColor="@color/color_234605"
+            android:background="@drawable/press"/>
+
+        <TextView
+            android:id="@+id/content_05"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/qingming"
+            android:textSize="@dimen/big_font"
+            android:textColor="@color/color_234605"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/press"/>
+
+        <TextView
+            android:id="@+id/content_06"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/guyu"
+            android:textSize="@dimen/big_font"
+            android:textColor="@color/color_234605"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/press"/>
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/content_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/color_234605"
+            android:padding="5dp"
+            android:layout_marginTop="15dp"
+            android:lineSpacingExtra="8dp"
+            android:lineSpacingMultiplier="1.0"
+            android:layout_marginBottom="5dp"/>
+    </ScrollView>
+
+</LinearLayout>

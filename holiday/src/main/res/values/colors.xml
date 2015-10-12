@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <color name="color_99b4a1">#99b4a1</color>
+  <color name="color_333">#333</color>
+  <color name="color_555">#555</color>
+  <color name="color_722e3e">#722e3e</color>
+  <color name="color_chun">#49b383</color>
+  <color name="color_xia">#cb6953</color>
+  <color name="color_qiu">#cba653</color>
+  <color name="color_dong">#4957b3</color>
+  <color name="color_234605">#234605</color>
+  <color name="color_a14d0f">#a14d0f</color>
+  <color name="color_565179">#565179</color>
+  <color name="color_e3e3e3">#e3e3e3</color>
+
+  <!-- 春分 -->
+  <color name="color_49b383">#49b383</color>
+  <color name="color_b11145">#b11145</color>
+</resources>

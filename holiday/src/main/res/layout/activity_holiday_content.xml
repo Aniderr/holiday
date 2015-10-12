@@ -1,0 +1,170 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/bg"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp">
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/back"
+            android:layout_centerVertical="true"
+            android:background="@drawable/press"/>
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/title"
+            android:textColor="@color/color_99b4a1"
+            android:textSize="@dimen/big_font"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"/>
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="48dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/jq_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/chunfen_title"
+                android:textColor="@color/color_49b383"
+                android:textSize="@dimen/big_font"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/jq_title_date"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="2015年立春时间是 2月4日 11:58:27"
+                        android:textSize="@dimen/min_font"
+                        android:textColor="@color/color_99b4a1"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="5dp"/>
+
+                    <TextView
+                        android:id="@+id/date"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/jq_title_shijian"
+                        android:textSize="@dimen/big_font"
+                        android:textColor="@color/color_b11145"
+                        android:layout_marginTop="15dp"/>
+
+                    <TextView
+                        android:id="@+id/jq_date"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="每年02月3-5日"
+                        android:textColor="@color/color_99b4a1"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="5dp"/>
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/jq_img"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:maxHeight="100dp"
+                    android:maxWidth="145dp"
+                    android:src="@mipmap/lichun"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/sanhou"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/jq_title_sanhou"
+                android:textSize="@dimen/big_font"
+                android:textColor="@color/color_b11145"/>
+
+            <TextView
+                android:id="@+id/jq_sanhou"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:lineSpacingMultiplier="1.5"
+                android:textSize="@dimen/normal_font"
+                android:text="东风解冻：东风送暖，大地开始解冻。蛰虫始振：蜇居的虫类慢慢在洞中苏醒。鱼陟负冰：河里的冰开始溶化，鱼开始到水面上游动，此时水面上还有没完全溶解的碎冰片，如同被鱼负着一般浮在水面。"/>
+
+            <TextView
+                android:id="@+id/jiesao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/jq_title_jiesao"
+                android:textSize="@dimen/big_font"
+                android:textColor="@color/color_b11145"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:id="@+id/jq_jiesao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:lineSpacingMultiplier="1.5"
+                android:textSize="@dimen/normal_font"
+                android:text="立春，是二十四节气之一，又称“打春”，“立”是“开始”的意思，中国以立春为春季的开始，每年2月4日或5日太阳到达黄经315度时为立春。古人将立春定为24个节气之首。立春之日，晚上七点时仰望星空，可见北斗七星的斗柄正指向东北，即方位角45度的地方，古人称为艮(八卦之一)的方向。立春的“立”表示开始，“春”表示季节，故立春有春之节气已开始之意。农谚有“春打六九头”、“几时霜降几时冬，四十五天就打春”之语，从冬至开始入九“五九”四十五天，因而立春正好是“六九”的开始。"/>
+
+            <TextView
+                android:id="@+id/youlai"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/jq_title_youlai"
+                android:textSize="@dimen/big_font"
+                android:textColor="@color/color_b11145"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:id="@+id/jq_youlai"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:lineSpacingMultiplier="1.5"
+                android:textSize="@dimen/normal_font"
+                android:text="立春作为节令早在春秋时就有了，那时一年中有立春、立夏、立秋、立冬、春分、秋分、夏至、冬至八个节令，到了《礼记?月令》一书和西汉刘安所著的《淮南子?天文训》中，才有24个节气的记载。在汉代前历法曾多次变革，那时曾将24节气中的立春这一天定为春节，意思春天从此开始。这种叫法曾延续了两千多年，直到1913年，当时的国民政府正式下了一个文件，明确每年的正月初一为春节。此后立春日，仅作为24个节气之一存在并传承至今。"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/jq_title_xisu"
+                android:textSize="@dimen/big_font"
+                android:textColor="@color/color_b11145"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:id="@+id/jq_xisu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:lineSpacingMultiplier="1.5"
+                android:textSize="@dimen/normal_font"
+                android:text="立春亦称“打春”、“咬春”，又叫“报春”。这个节令与众多节令一样有众多民俗，有迎春行春的庆贺祭典与活动，有打春的“打牛”和咬春吃春饼、春盘、咬萝卜之习俗等。从历史文献记载来看，我国历朝历代的迎春仪式隆重而浩大。此时的立春已经超过了农历２４节气只标示节令与气候的功能，而是已经被当成一个节日了，因此在历史上便演化出了许多围绕立春而举办的活动及民俗，如“春娃”、“春鞭”、“春卷”、“打春”、“春酒”、“春牛”等等。咬春是指立春日吃春盘、吃春饼、吃春卷、嚼萝卜之俗，一个“咬”字道出节令的众多食俗。春盘春饼是用蔬菜、水果、饼饵等装盘馈送亲友或自食，称为春盘。"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

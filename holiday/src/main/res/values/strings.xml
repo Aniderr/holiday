@@ -1,0 +1,81 @@
+<resources>
+    <string name="app_name">二十四节气</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_home">HomeActivity</string>
+
+    <string name="title">二十四节气</string>
+    <string name="banquan">智捷服务</string>
+    <string name="hr">-</string>
+
+    <!-- homeactivity-->
+    <string name="shenming">声明</string>
+    <string name="title_activity_statement">StatementActivity</string>
+
+    <!--StatementActivity-->
+    <string name="statement">      智捷服务团队在此声明，此版本APP数据以及图片大部分来源于网络，如涉及侵权行为请版权所有者告知，智捷服务团队一定立马更换。<br></br>智捷团队联系方式：Tel:18725726731  QQ:2085741181</string>
+    <string name="title_activity_introduce">IntroduceActivity</string>
+
+    
+    <!--introduceActivity-->
+    <string name="introduce_title">二十四节气—简介</string>
+    <string name="introduce_content">二十四节气是中国古代订立的一种用来指导农事的补充历法，是在春秋战国时期形成的。由于中国农历是一种“阴阳合历”，即根据太阳也根据月亮的运行制定的，因此不能完全反映太阳运行周期，但中国又是一个农业社会，农业需要严格了解太阳运行情况，农事完全根据太阳进行，所以在历法中又加入了单独反映太阳运行周期的“二十四节气”，用作确定闰月的标准。二十四节气能反映季节的变化，指导农事活动，影响着千家万户的衣食住行。二十四节气是根据太阳在黄道（即地球绕太阳公转的轨道）上的位置来划分的。</string>
+    <string name="title_activity_music">MusicActivity</string>
+
+
+    <!--MusicActivity-->
+    <string name="music_title">二十四节气-节气歌</string>
+    <string name="title_activity_music_content">MusicContentActivity</string>
+    <string name="musiccontent1">春雨惊春清谷天，夏满芒夏暑相连；\n秋处露秋寒霜降，冬雪雪冬小大寒。\n每月两节不变更，最多相差一两天；\n上半年来六廿一，下半年是八廿三。\n春：立春，雨：雨水，惊：惊蛰，春：春分，清：清明，谷：谷雨。\n夏：立夏，满：小满，芒：芒种，夏：夏至，暑相连：小暑、大暑。\n秋：立秋，处：处暑，露：白露，秋：秋分，寒：寒露；降，霜降。\n冬：立冬，雪：小雪，雪：大雪，冬：冬至，小大寒：小寒、大寒。</string>
+    <string name="musiccontent2">西园梅放立春先， 云镇霄光雨水连。\n惊蛰初交河跃鲤， 春分蝴蝶梦花间。\n清明时放风筝好， 谷雨西厢宜养蚕。\n牡丹立夏花零落， 玉簪小满布庭前。\n隔溪芒种渔家乐， 农田耕耘夏至间。\n小暑白罗衫着体， 望河大暑对风眠。\n立秋向日葵花放， 处暑西楼听晚蝉。\n翡翠园中沾白露， 秋分折桂月华天。\n枯山寒露惊鸿雁， 霜降芦花红蓼滩。\n立冬畅饮麒麟阁， 绣襦小雪咏诗篇。\n幽阖大雪红炉暖， 冬至琵琶懒去弹。\n小寒高卧邯郸梦， 捧雪飘空交大寒。</string>
+    <string name="musiccontent3">立春梅花分外艳，雨水红杏花开鲜；\n惊蛰芦林闻雷报，春分蝴蝶舞花间。\n清明风筝放断线，谷雨嫩茶翡翠连，\n立夏桑果象樱桃，小满养蚕又种田。\n芒种玉秧放庭前，夏至稻花如白练；\n小暑风催早豆熟，大暑池畔赏红莲。\n立秋知了催人眠，处暑葵花笑开颜；\n白露燕归又来雁，秋分丹桂香满园。\n寒露菜苗田间绿，霜降芦花飘满天；\n立冬报喜献三瑞，小雪鹅毛片片飞。\n大雪寒梅迎风狂，冬至瑞雪兆丰年；\n小寒游子思乡归，大寒岁底庆团圆。</string>
+    <string name="musiccontent4">立春：立春春打六九头，春播备耕早动手，一年之计在于春，农业生产创高优。\n雨水：雨水春雨贵如油，顶凌耙耘防墒流，多积肥料多打粮，精选良种夺丰收。\n惊蛰：惊蛰天暖地气开，冬眠蛰虫苏醒来，冬麦镇压来保墒，耕地耙耘种春麦。\n春分：春分风多雨水少，土地解冻起春潮，稻田平整早翻晒，冬麦返青把水浇。\n清明：清明春始草青青，种瓜点豆好时辰，植树造林种甜菜，水稻育秧选好种。\n谷雨：谷雨雪断霜未断，杂粮播种莫迟延，家燕归来淌头水，苗圃枝接耕果园。\n立夏：立夏麦苗节节高，平田整地栽稻苗，中耕除草把墒保，温棚防风要管好。\n小满：小满温和春意浓，防治蚜虫麦秆蝇，稻田追肥促分孽，抓绒剪毛防冷风。\n芒种：芒种雨少气温高，玉米间苗和定苗，糜谷荞麦抢墒种，稻田中耕勤除草。\n夏至：夏至夏始冰雹猛，拔杂去劣选好种，消雹增雨干热风，玉米追肥防粘虫。\n小暑：小暑进入三伏天，龙口夺食抢时间，玉米中耕又培土，防雨防火莫等闲。\n大暑：大暑大热暴雨增，复种秋菜紧防洪，勤测预报稻瘟病，深水护秧防低温。\n立秋：立秋秋始雨淋淋，及早防治玉米螟，深翻深耕土变金，苗圃芽接摘树心。\n处暑：处暑伏尽秋色美，玉主甜菜要灌水，粮菜后期勤管理，冬麦整地备种肥。\n白露：白露夜寒白天热，播种冬麦好时节，灌稻晒田收葵花，早熟苹果忙采摘。\n秋分：秋分秋雨天渐凉，稻黄果香秋收忙，碾谷脱粒交公粮，山区防霜听气象。\n寒露：寒露草枯雁南飞，洋芋甜菜忙收回，管好萝卜和白菜，秸秆还田秋施肥。\n霜降：霜降结冰又结霜，抓紧秋翻蓄好墒，防冻日消灌冬水，脱粒晒谷修粮仓。\n立冬：立冬地冻白天消，羊只牲畜圈修牢，培田整地修渠道，农田建设掀高潮。\n小雪：小雪地封初雪飘，幼树葡萄快埋好，利用冬闲积肥料，庄稼没肥瞎胡闹。\n大雪：大雪腊雪兆丰年，多种经营创高产，及时耙耘保好墒，多积肥料找肥源。\n冬至：冬至严寒数九天，羊只牲畜要防寒，积极参加夜技校，增产丰收靠科研。\n小寒：小寒进入三九天，丰收致富庆元旦，冬季参加培训班，不断总结新经验。\n大寒：大寒虽冷农户欢，富民政策夸不完，联产承包继续干，欢欢喜喜过个年。</string>
+    <string name="musiccontent5">说个子来道个子， 正月过年耍狮子。\n二月惊蛰抱蚕子， 三月清明坟飘子。\n四月立夏插秧子， 五月端阳吃粽子。\n六月天热买扇子， 七月立秋烧袱子。\n八月过节麻饼子， 九月重阳捞糟子。\n十月天寒穿袄子， 冬月数九烘笼子。\n腊月年关四处去躲帐主子。</string>
+    <string name="musiccontent6">地球绕着太阳转，绕完一圈是一年。\n一年分成十二月，二十四节紧相连。\n按照公历来推算，每月两气不改变。\n上半年是六、廿一，下半年逢八、廿三。\n这些就是交节日，有差不过一两天。\n二十四节有先后，下列口诀记心间：\n一月小寒接大寒，二月立春雨水连；\n惊蛰春分在三月，清明谷雨四月天；\n五月立夏和小满，六月芒种夏至连；\n七月小暑和大暑，立秋处暑八月间；\n九月白露接秋分，寒露霜降十月全；\n立冬小雪十一月，大雪冬至迎新年。\n抓紧季节忙生产，种收及时保丰年。</string>
+    <string name="musiccontent7">立春阳气转，雨水沿河边。惊蛰乌鸦叫，春分滴水干。清明忙种粟，谷雨种大田。\n
+立夏鹅毛住，小满雀来全。芒种大家乐，夏至不着棉。小暑不算热，大暑在伏天。\n
+立秋忙打靛，处暑动刀镰。白露忙割地，秋分无生田。寒露不算冷，霜降变了天。\n
+立冬先封天，小雪河封严。大雪交冬月，冬至数九天。小寒忙买办，大寒要过年。</string>
+    <string name="title_activity_holiday">HolidayActivity</string>
+
+
+    <!-- holidayActivity -->
+    <string name="lichun">立春</string>
+    <string name="yushui">雨水</string>
+    <string name="jingzhe">惊蛰</string>
+    <string name="chunfen">春分</string>
+    <string name="qingming">清明</string>
+    <string name="guyu">谷雨</string>
+    <string name="lixia">立夏</string>
+    <string name="xiaoman">小满</string>
+    <string name="mangzhong">芒种</string>
+    <string name="xiazhi">夏至</string>
+    <string name="xiaoshu">小暑</string>
+    <string name="dashu">大暑</string>
+    <string name="liqiu">立秋</string>
+    <string name="chushu">处暑</string>
+    <string name="bailu">白露</string>
+    <string name="qiufen">秋分</string>
+    <string name="hanlu">寒露</string>
+    <string name="shuangjiang">霜降</string>
+    <string name="lidong">立冬</string>
+    <string name="xiaoxue">小雪</string>
+    <string name="daxue">大雪</string>
+    <string name="dongzhi">冬至</string>
+    <string name="xiaohan">小寒</string>
+    <string name="dahan">大寒</string>
+    <string name="title_activity_holiday_content">HolidayContent</string>
+
+
+    <!-- holidayContentActivity - 春分-->
+    <string name="chunfen_title">春分(Beginning of Spring)</string>
+    <string name="jq_title_shijian">时间</string>
+    <string name="jq_title_sanhou">三候</string>
+    <string name="jq_title_jiesao">介绍</string>
+    <string name="jq_title_youlai">由来</string>
+    <string name="jq_title_xisu">习俗</string>
+    <string name="title_activity_regimen">RegimenActivity</string>
+    <string name="title_activity_regimen_content">RegimenContentActivity</string>
+
+</resources>
